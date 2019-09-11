@@ -3,35 +3,36 @@ body{
  padding: 0;
  overflow: hidden;
 
- background-image: url("media/backg_pattern.png");
- background-color: #000000;
+ /*background-image: url("media/backg_pattern.png");*/
+ background-size: 5em;
+ background-color: #3D3D3D;
 }
 
 
-.container{
-  display: block;
-
-  width: 40%;
-  height: 50%;
-
-  background-color: rgb(0, 0, 0);
-
+.container{ /*This is the content*/
   margin: 0 auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 50%;
+  height: 60%;
+
+  display: block;
+  background-color: #E9EAEE;
+  border-radius: .5em;
+  box-shadow: 2px 2px 5px 0px;
 }
 
-.social{
+.social{ /* social media buttons at the bottom */
   display: block;
 
-  background-color: rgb(0,0,0);
+  background-color: #515151;
   width: 40%;
-  height: 48px;
+  height: 5%;
 
   position: absolute;
-  bottom: 0;
+  bottom: 1em;
 
   margin: 0 auto;
   position: absolute;
