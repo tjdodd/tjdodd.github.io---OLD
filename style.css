@@ -90,15 +90,35 @@ body{
   width: 100%;
   height: 3vh;
 }
-.navlinks a:hover{color: purple;}
+.navlinks a:hover{color: #800080;}
+.social-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
 .social{
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .social img{
-  width:4vh;
+  display: block;
+  float: left;
+
   height:4vh;
 
-  padding: .1vw;
+  padding: 1vw;
+}
 
-  text-align: center;
+.social img:hover{
+  filter: invert(11%) sepia(100%) saturate(5555%) hue-rotate(296deg) brightness(65%) contrast(106%);
+  cursor: pointer;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
