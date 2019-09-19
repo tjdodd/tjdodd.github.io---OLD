@@ -32,6 +32,16 @@ body{
   font-size: 18px;
 }
 
+.content img{
+  display: block;
+  margin: 0 auto;
+
+  width: 50%;
+}
+.content p{
+  text-align: center;
+}
+
 .divider{
   float: left;
   display: block;
@@ -45,7 +55,7 @@ body{
 .hor-divider{
   display: block;
   width: 70%;
-  height: .5vh;
+  height: .2vh;
 
   margin: 0 auto;
 
@@ -63,7 +73,7 @@ body{
   margin: 0 5% 0 5%;
   overflow: hidden;
 
-  grid-template-rows: .9fr .1fr 4fr 1fr;
+  grid-template-rows: .4fr .1fr 4fr .5fr;
 }
 
 .title .navlinks .social{
@@ -71,11 +81,15 @@ body{
 
   background-color: red;
 }
+.title{
+  /**/
+}
 
 .title p{
   text-align: center;
 
-  font-size: 4vh;
+  padding: 2vh 0 2vh 0;
+  font-size: 2vw;
 }
 
 .navlinks a{
